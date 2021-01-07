@@ -1,0 +1,28 @@
+.container{
+    width: 500px;
+    height: 2em;
+    padding: 10px 10px;
+    margin-right: -.36em;
+    color: green;
+}
+
+.container2{
+    width: 50px;
+    height: 2em; 
+    color: green;
+}
+
+.container:hover{
+    color: red;
+}
+
+.container2:hover{
+    color: red;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+

@@ -1,0 +1,54 @@
+.mainborders{
+    border-collapse: collapse;
+}
+
+.secondborders{
+    border: 1px solid #f7d9f7;
+    text-align: center;
+}
+
+
+.tablehead{
+    background-color: black;
+    color: white;
+    
+}
+
+.soul{
+    background-color:orange;
+    
+}
+
+.time{
+    background-color:green ;
+}
+
+.space{
+    background-color: blue;
+}
+
+.mind{
+    background-color: yellow;
+}
+
+.reality{
+    background-color: red;
+}
+
+.power{
+    background-color: plum;
+}
+
+.imagestone{
+    border-radius: 40px;
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+}
+.link{
+    text-align: center;
+    
+}
+
+
+
