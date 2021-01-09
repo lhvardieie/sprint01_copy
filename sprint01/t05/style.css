@@ -1,0 +1,85 @@
+.America{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background: linear-gradient(to top,#B06AB3, #4568DC );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.Ironman{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    background: linear-gradient(to top,#b31217,#e52d27);
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.Blackwidow{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    background: linear-gradient( to right,#000 ,#61045F);
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.Spiderman{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    background: linear-gradient(to top, #000, #e52d27);
+    margin-left: 40px;
+    font: verdaba ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;
+
+}
+
+.photo{
+    height: 182px;
+    position: relative;
+    top: -77px;
+    left: 15px;
+   
+    
+    
+
+}
+
+.photospider{
+    height: 182px;
+    position: relative;
+    top: -25px;
+    left: 15px;
+    bottom: 20px;
+
+}
+.name{
+    font-size: 12px;
+    text-align: right;
+    padding-top: 0 px;
+    padding-right: 10px;
+    line-height: 1px;
+}
+
+.realname{
+    font-size: 9px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 1px;
+}
+
+
