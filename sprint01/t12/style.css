@@ -1,32 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.box {
-    display: inline-block;
-    position: relative;
-    padding: 2em;
+div{
+    display: flex;
+    box-sizing: content-box;
     
 }
-.box:after,
-.box:before {
-    position: absolute;
-    content: "";
-    
-}
-.box:after {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    left: 0;
-    right: 0;
-    top: 1em;
-    bottom: 1em;
-}
-.box:before {
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    left: 1em;
-    right: 1em;
-    top: 0;
-    bottom: 0;
-}
+
 .box{
-    background-color: lightgray;
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    background-color: lightgrey;
+    border: 0px solid black;
+    margin: auto;
+    justify-content: left;
+    
 }
