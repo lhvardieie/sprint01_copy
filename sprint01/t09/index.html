@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="firstborderform" action="">
+        <form action="">
+            <fieldset>
+                <legend class="aboutsh">About the Superhero</legend>
+                <label for="RealName"> Real Name</label>
+                <input type="text" placeholder="Superhero real name" id="RealName">
+
+                <label for="SuperheroName">Superhero Name</label>
+                <input type="text" placeholder="Superhero ailas" id="SuperheroName">
+
+                <label for="Age">Age</label>
+                <input type="number" min="1" max="999" step="1" id="Age" size="5px">
+                <br>
+                
+                <label for="About">About</label>
+                <textarea class="textarea" maxlength="500" name="text" id="About" cols="70" rows="5" placeholder="Information about the superhero, max 500 symbols"></textarea>
+                <br>
+
+                <label for="Photo:">Photo:</label>
+                <input class="button" type="file" value="Choose file" id="Photo:">
+
+            
+            </fieldset>
+
+            <fieldset>
+                <legend class="powersh">Power</legend>
+                
+                <input type="checkbox" value="Telekinesis" id="Telekinesis" name="Telekinesis">
+                <label for="Telekinesis">Telekinesis</label>
+                <input type="checkbox" value="Super strength of speed" id="Super strength of speed" name="Super strength of speed">
+                <label for="Super strength of speed">Super strength of speed</label>
+                <input type="checkbox" value="Shapeshifting" id="Shapeshifting" name="Shapeshifting">
+                <label for="Shapeshifting">Shapeshifting</label>
+                <input type="checkbox" value="Flight" id="Flight" name="Flight">
+                <label for="Flight">Flight</label>
+                <input type="checkbox" value="Elemental control" id="Elemental control" name="Elemental control">
+                <label for="Elemental control">Elemental control</label>
+                <input type="checkbox" value="Other" id="Other" name="Other">
+                <label for="Other">Other</label>
+                <br>
+
+                <label class="controlsh" for="Level of control:">Level of control:</label>
+                <input class="controlsh" type="range" value="0" min="1" max="10" class="slider" id="Level of control:">
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Origin of Powers</legend>
+
+                <input class="originofpowers" type="radio" value="Unknown" id="Unknown" name="Unknown">
+                <label class="originofpowers" for="Unknown">Unknown</label>
+                <input class="originofpowers" type="radio" value="Freak lab accident" id="Freak lab accident" name="Freak lab accident">
+                <label class="originofpowers" for="Unknown">Freak lab accident</label>
+                <input class="originofpowers" type="radio" value="Chosen by an ancient wise being" id="Chosen by an ancient wise being" name="Chosen by an ancient wise being">
+                <label class="originofpowers" for="Chosen by an ancient wise being">Chosen by an ancient wise being</label>
+                <input class="originofpowers" type="radio" value="The superhero is not human" id="The superhero is not human" name="The superhero is not human">
+                <label class="originofpowers" for="The superhero is not human">The superhero is not human</label>
+                <input class="originofpowers" type="radio" value="Other" id="Other" name="Other">
+                <label class="originofpowers" for="Other">Other</label>
+            </fieldset>
+
+            <button class="lastbutton" type="reset">CLEAR</button>
+            <button class="lastbutton" type="submit">SEND</button>
+        </form>
+
+    </form>
+    
+</body>
+</html>

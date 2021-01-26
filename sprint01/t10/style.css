@@ -1,0 +1,42 @@
+li ::before {
+ content: "\00BB";
+ padding-right: 10px;
+}
+
+a[href*= "www.freec" ] {
+    color: green;
+    
+}
+
+a[href*= "www.sit" ] {
+    color: green;
+    
+}
+
+ul :nth-child(7) ::before{
+    content:  "\00D7";
+    color: red;
+    padding-right: 10px;
+}
+
+ul :nth-child(9) ::before{
+    content:  "\00D7";
+    color: red;
+}
+
+li:nth-child(3) ::after {
+    content: '\21D2';
+    color: coral;
+}
+
+li:nth-child(5) ::after {
+    content: '\21D2';
+    color: coral;
+
+}
+
+li:hover:nth-child(5) ::after {
+    font-style: italic;
+    content: '\2026 last symbol is \0027 a\0027';
+    color: coral;
+}

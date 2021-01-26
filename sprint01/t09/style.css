@@ -1,0 +1,44 @@
+.firstborderform{
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.aboutsh{
+    margin-bottom: 15px;
+}
+
+.textarea{
+    margin-top: 20px;
+
+}
+
+.powersh{
+    margin-bottom: 15px;
+
+
+}
+
+.button{
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.controlsh{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.originofpowers{
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+
+.lastbutton{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+

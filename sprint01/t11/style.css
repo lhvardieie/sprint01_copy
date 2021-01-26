@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+
+.mainblock{
+    width: 140px;
+	height: 180px;
+	float: left;
+	margin: 3px;
+}
+
+.mainblock:hover{
+    box-shadow: 0 0 15px #000;
+}
+
+.date{
+ font-family: lato;
+ font-weight: bold;
+ font-size: 1.5em;
+ display: block;
+ text-align: center;
+ background-color: #0097B9;
+ color: white;
+}
+
+.degree{
+ font-family: lato;
+ font-weight: italic;
+ font-size: 2em;
+ display: block;
+ text-align: center;
+}
+
