@@ -43,7 +43,6 @@
     display: inline-block;
     background: linear-gradient(to top, #000, #e52d27);
     margin-left: 40px;
-    font: verdaba ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;
 
 }
@@ -80,6 +79,8 @@
     text-align: right;
     padding-right: 10px;
     line-height: 1px;
+    color: rgba(255, 255,255, 0.5);
+    
 }
 
 

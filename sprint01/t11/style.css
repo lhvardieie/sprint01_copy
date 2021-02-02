@@ -2,10 +2,11 @@
 
 
 .mainblock{
-    width: 140px;
-	height: 180px;
-	float: left;
-	margin: 3px;
+	width: 100px;
+	height: 120px;
+	margin: 1px;
+	
+	
 }
 
 .mainblock:hover{
@@ -30,3 +31,13 @@
  text-align: center;
 }
 
+.weather{
+	display: flex;;
+	
+}
+
+.picture{
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}

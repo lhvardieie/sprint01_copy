@@ -8,7 +8,8 @@
 	
 }
 
-.japaninside {
+.japan:before{
+	content: '';
 	width: 100px;
 	height: 100px;
 	background-color: #c7213d;
