@@ -1,0 +1,33 @@
+.Circle{
+     width: 200px;
+     height: 200px;
+     background-color: rgb(186, 224, 148);
+     border-radius: 100%;
+     animation-name: moving;
+     animation-duration: 15s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     margin-top: 50px;
+     transition: 0.5s;
+     
+
+}
+
+.Circle:hover{
+    background-color: lightcoral;
+    transition: 2s;
+}
+
+@keyframes moving{
+    0%{
+        margin-left: 0%;
+    }
+    50%{
+        margin-left: calc(100% - 200px);
+    }
+
+    100%{
+        margin-left: 0%;
+    }
+}
+

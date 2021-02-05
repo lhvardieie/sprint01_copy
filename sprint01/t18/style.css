@@ -1,16 +1,16 @@
 form {
-	line-height: 2em;
-}
-
-form {
   width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 input {
 	padding-left: 10px;
-	width: 35%;	
+    width: 35%;
+    flex-grow: 1;
+    
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 button {
-	color: green;
+    color: green;
 }
 
 button:hover {
@@ -32,12 +32,6 @@ input:hover {
 	color: red;
 }
 
-
-
-input {
-  flex-grow: 1;
-  width: 120px;
-}
 
 button {
   border: 1px solid grey;
